@@ -2,4 +2,5 @@ Using the Ames, Iowa Housing Price dataset from kaggle for a machine learning pr
 
 The project was completed with a series of jupyter notebooks. Analysis.ipynb shows the final analysis using the models and cleaned sales data built in other notebooks in the Archive folder. Final_Model.ipynb builds and outputs the models used in Analysis. Other notebooks include other models and analysis that were not used in the end. 
 
+The pickles folder includes saved model and dataframe objects.  Location_model and residuals_model are the final trained models. 
 
