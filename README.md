@@ -3,7 +3,7 @@
 Using the [Ames, Iowa House Price dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) we build machine learning models to predict investment properties. 
 
 ## Model:
-We used an ensemble model, first modeling the price as a function of a houses location (latitude, longitude) and then modeling the residuals from that model with a ridge regression. In this way we separate the location's effect on price and mimic how many people judge a home's value; location first and then comparing to other properties. 
+We used an ensemble model, first modeling the price as a function of a houses location (latitude, longitude) using kNN and then modeling the residuals from that model with a ridge regression. In this way we separate the location's effect on price and mimic how many people judge a home's value; location first and then comparing to other properties. 
 
 ## Analysis:
 Then using the model we can predict the potential increase in price by changing features in a home (i.e. increasing the quality of the kitchen, curb appeal, etc.). Then, with given homes for sale, we can output the homes with the most potential for profit (currently not taking into account the cost of renovations, but that can be estimated for a more holistic prediction).  
